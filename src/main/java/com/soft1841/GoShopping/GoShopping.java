@@ -1,4 +1,4 @@
-package com.soft1841.week1;
+package com.soft1841.GoShopping;
 
 /**
  * 定义一个GoShopping类，使用WallMarket类和TaobaoMarket类创建抽象类对象，赋值

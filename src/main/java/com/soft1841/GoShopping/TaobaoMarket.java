@@ -1,4 +1,4 @@
-package com.soft1841.week1;
+package com.soft1841.GoShopping;
 
 /**
  * 定义TaobaoMarket类，继承Market抽象类
