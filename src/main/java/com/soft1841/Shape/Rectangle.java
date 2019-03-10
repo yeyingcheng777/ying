@@ -1,5 +1,9 @@
 package com.soft1841.Shape;
 
+/**
+ * 定义矩形
+ */
+
 public class Rectangle extends Shape {
     public Rectangle(){super();}
 

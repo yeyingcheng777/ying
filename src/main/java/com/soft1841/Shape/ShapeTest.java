@@ -2,7 +2,7 @@ package com.soft1841.Shape;
 
 /**
  * 定义实现类
- * @author 蔡一帆
+ * @author  蔡一帆
  * 2019.3.10
  */
 public class ShapeTest {
