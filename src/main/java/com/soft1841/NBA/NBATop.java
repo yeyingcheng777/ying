@@ -3,6 +3,7 @@ package com.soft1841.NBA;
 import sun.security.util.Length;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class NBATop {
@@ -20,5 +21,15 @@ public class NBATop {
                     + " " + nbaList.get(i).getRebound() + " " + nbaList.get(i).getAssist());
             System.out.println();
         }
+        System.out.println("用Iterator 迭代器输出结果");
+        Iterator<NBA> iterator = nbaList.iterator();
+        while (iterator.hasNext()){
+            NBA nba = iterator.next();
+            System.out.println(nba.getName() + " " + nba.getNickname() + " " + nba.getScore()
+                    + " " + nba.getRebound() + " " + nba.getAssist());
+        }
+        System.out.println("Lambda表达式编历输出结果");
+        nbaList.forEach(nba -> System.out.println(nba.getName() + " " + nba.getNickname() + " " + nba.getScore()
+                + " " + nba.getRebound() + " " + nba.getAssist()));
     }
 }
